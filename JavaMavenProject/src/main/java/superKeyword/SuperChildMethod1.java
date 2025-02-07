@@ -2,7 +2,7 @@ package superKeyword;
 
 public class SuperChildMethod1 extends SuperParentMethod1 {
 	public void childdetails() {
-		String name ="anitha";
+		String name ="Riya";
 		int age = 20;
 		System.out.println("Name:" +name +" "+"age:" +age);
 		super.parentdetails();

@@ -3,8 +3,8 @@ package inheritance;
 public class SingleInheritance2 {
 
 	public void details() {
-		String name = "Akhila";
-		int age =25;
+		String name = "Anu";
+		int age =24;
 		System.out.println("Name:" +name +" " +"Age:" +age);
 	}
 

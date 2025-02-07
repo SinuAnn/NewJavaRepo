@@ -4,8 +4,8 @@ public class HierarchialChild2 extends  HierarchialParent1 {
 
 	public void address()
 	{
-		String place ="kuttipuzha";
-		int pincode = 683578;
+		String place ="Thiruvalla";
+		int pincode = 689110;
 		System.out.println("place:" +place);
 		System.out.println("pincode:" +pincode);}
 	

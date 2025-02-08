@@ -5,7 +5,7 @@ public class SuperChild1 extends SuperParent1{ //to refer the immediate parent c
 	public void display()
 	{
 		System.out.println(name);
-		System.out.println(super.name);
+		System.out.println(super.division);
 	}
 	public static void main(String[] args) {
 		SuperChild1 obj =new SuperChild1();

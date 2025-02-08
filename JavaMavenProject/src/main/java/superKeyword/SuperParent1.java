@@ -1,6 +1,6 @@
 package superKeyword;
 
 public class SuperParent1 {
-	String name ="Riya";
+	String  division="6A";
 
 }

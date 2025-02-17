@@ -1,21 +1,26 @@
 package exceptionpackage;
 
 public class CustomexceptionEX {
-	static boolean eligible(int age)
+	public static void main(String[] args) throws VotingException
 	{
-		  return age >=18;
-	} 
+	
+	 {
+int age=15;
+
+               if (age>=18) 
+				
+               {
+                   System.out.println("You are eligible for voting.");
+               } else 
+               {
+            	   throw new VotingException("not eligible to vote");
+               }
+	
+	
+	               
+	              
+	            	   
 		
-	               public static void main(String[] args) 
-		{  
-	            int age = 20;
-
-	                   if (eligible(age))
-	                   {
-	                       System.out.println("You are eligible for voting.");
-	                   } else {
-	                	   throw new VotingException("not eligible to vote");
-
-	                   }}}
+	               }}}
 
 				

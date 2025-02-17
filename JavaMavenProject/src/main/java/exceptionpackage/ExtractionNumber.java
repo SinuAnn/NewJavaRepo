@@ -1,26 +1,21 @@
 package exceptionpackage;
 
-public class Exception1 {
+public class ExtractionNumber {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-int x=20;
-int y=0;
-try
-{
-int z=x/y;
-System.out.println(z);
+		
+	
+	try
+	{
+	int num="Sinu";
+	System.out.println(num);
 
-System.out.println("hi");
-  
-}
-
-catch(ArithmeticException var)
+	}	
+catch(NumberFormatException var)
 {
-	x=20;
-y=2;
-int z=x/y;
-System.out.println(z);
+	int num=10;
+System.out.println("Cannot convert the string to a number");
 System.out.println(var);
 
 }
@@ -29,5 +24,8 @@ finally
 {
 	System.out.println("exception complete");
 }
-}}
+}
+	
+	}
+
 

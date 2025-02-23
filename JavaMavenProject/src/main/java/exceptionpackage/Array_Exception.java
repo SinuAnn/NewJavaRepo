@@ -1,6 +1,6 @@
 package exceptionpackage;
 
-public class Sample2 {
+public class Array_Exception {
 	
 		
 		
@@ -32,7 +32,7 @@ public class Sample2 {
 		{
 			// TODO Auto-generated method stub
 
-			Sample2 obj1=new Sample2();
+			Array_Exception obj1=new Array_Exception();
 					obj1.operation();
 		}
 

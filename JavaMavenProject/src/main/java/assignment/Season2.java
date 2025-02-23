@@ -10,7 +10,7 @@ public class Season2 extends Seasons{
 		this.price=price;
 		discount=.40f*price;
 		super.Calculationofdiscount(price);
-		 System.out.println("off season price :" +price+", "+"offseason discount"+discount
+		 System.out.println("off season price :" +price+", "+"offseason discount"+discount);
 	}
 
 	public static void main(String[] args) {
